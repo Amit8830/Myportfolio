@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
                <div className="py-2 text-center footer-style">© Amit Ashok Gupta &nbsp;{new Date().getFullYear()}</div>
         </div>
-    )
-}
+    );
+};
 
 export default Footer;

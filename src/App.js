@@ -4,6 +4,7 @@ import MyNav from "./component/my-navBar/myNav";
 import MyCarousal from "./component/mycarousal/mycarousal";
 import TitleMessage from "./component/title-message/titlemessage";
 import Fade from "react-reveal/Fade";
+import About from './pages/about/about'
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
@@ -14,7 +15,6 @@ import Footer from "./component/footer/footer";
 // import Particles from "react-particles-js";
 // import { particleOption } from "./particleOption"
 
-import About from './pages/about/about'
 
 function App() {
   return (
@@ -70,6 +70,6 @@ function App() {
     </div>
 
   );
-}
+};
 
 export default App;

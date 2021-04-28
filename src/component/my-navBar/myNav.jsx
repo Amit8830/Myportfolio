@@ -7,11 +7,14 @@ import "./mynav.css";
 
 const mynav = () => {
     return (
-        <>
+        <div>
             <Navbar fixed="top" collapseOnSelect expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between" >
+               <div>
                 <Navbar.Brand href="#home">
                     <img className="logo" src={Logo} alt="MyPortfolio" />
                 </Navbar.Brand>
+                </div>
+                <div>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
@@ -22,8 +25,9 @@ const mynav = () => {
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
+                </div>
             </Navbar>
-        </>
+            </div>
     )
 }
 
